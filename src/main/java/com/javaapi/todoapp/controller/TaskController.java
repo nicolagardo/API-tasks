@@ -43,7 +43,6 @@ public class TaskController {
 
         this.taskService.deleteTask(id);
         return ResponseEntity.noContent().build();
-
     }
 
 
